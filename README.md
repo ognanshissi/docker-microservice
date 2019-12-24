@@ -8,4 +8,4 @@ build and installation
     docker-compose up
 ```
 
-got to [http:localhost:300](localhost:3000), your app is running
+got to [http://localhost:300](localhost:3000), your app is running
