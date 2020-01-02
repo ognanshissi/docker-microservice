@@ -1,0 +1,52 @@
+{
+  "name": "tracking",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "test": "npx jest --testTimeout=10000"
+  },
+  "author": {
+    "name": "Ambroise BAZIE",
+    "email": "bazieambroise@gmail.com",
+    "url": "https://github.com/ognanshissi"
+  },
+  "dependencies": {
+    "@hapi/joi": "^16.1.8",
+    "axios": "^0.19.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^8.1.0",
+    "ejs": "^2.7.1",
+    "express": "~4.16.1",
+    "express-session": "^1.16.2",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.4.0",
+    "mongodb": "^3.3.4",
+    "mongoose": "^5.7.11",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "~1.9.1",
+    "nodemon": "^1.19.2",
+    "pug": "^2.0.4",
+    "querystring": "^0.2.0",
+    "socket.io": "^2.2.0"
+  },
+  "engines": {
+    "node": "12.13.0"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
